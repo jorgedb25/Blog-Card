@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAFAF9;
+}
+hr{
+    margin-top: 20px;
+    color: #6C727F;
+}
+.contenedor{
+    margin: auto;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    width: 368px;
+    height: 100%;
+    padding-top: 19px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card{
+    width: 336px;
+}
+
+.card > img{
+    border-radius: 10px;
+    width: 336px;
+    height: 152px;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #E6D6FC;
+    width: 60px;
+    border-radius: 15px;
+    margin-top: 16px;
+}
+.presentacion > p{
+    padding: 5px 2px;
+    color: #883AE1;
+    font-size: 12px;
+    font-family: "Sora", sans-serif;
+    font-weight: 550;
+    font-optical-sizing: auto;
+
+}
+
+.texto > h1{
+    padding-top: 16px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+  }
+.texto > p{
+    color: #6C727F;
+    padding-top: 6px;
+    font-size: 14px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.autor{
+    color: #6C727F;
+    padding-top: 20px;
+}
